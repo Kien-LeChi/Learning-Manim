@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/3977891868_4107158070_3060545867.mp4'
