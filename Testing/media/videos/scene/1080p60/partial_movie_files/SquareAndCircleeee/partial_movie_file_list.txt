@@ -1,2 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/Testing/media/videos/scene/1080p60/partial_movie_files/SquareAndCircleeee/3977891868_2684069615_223132457.mp4'

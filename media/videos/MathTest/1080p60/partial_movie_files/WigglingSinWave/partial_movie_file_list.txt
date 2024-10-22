@@ -1,2 +1,12 @@
 # This file is used internally by FFMPEG.
-file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/3977891868_4107158070_3060545867.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/3977891868_2268332985_631829896.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/3977891868_88915936_4131132508.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/2852726489_1959358871_3646853897.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/2852726489_700531774_3458939559.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/2852726489_1959358871_1849112322.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/2852726489_1319451535_422506997.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/2852726489_1959358871_3287053185.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/2852726489_3867717125_2958329031.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/2852726489_3890345977_4105334415.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/2852726489_357345395_358953948.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/MathTest/1080p60/partial_movie_files/WigglingSinWave/2852726489_1141282389_1957212528.mp4'
