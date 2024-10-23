@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/1449566815_4208649792_223132457.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/1393865303_3438219438_1790790205.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/1393865303_2469864721_2597095855.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/1393865303_3687956762_3605641180.mp4'

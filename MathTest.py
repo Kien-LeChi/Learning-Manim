@@ -27,7 +27,7 @@ class oxy(Scene) :
         self.play(Write(axes), Create(square), run_time = 1)
         self.wait(1)
         self.play(Write(text_in_square))
-        self.wait(1)
+        self.wait(2)
         self.play(Swap(axes, square))
         self.wait(1)
 
