@@ -19,12 +19,13 @@ class Geometry(ThreeDScene) :
 
 class Camera_angles(ThreeDScene) :
     def construct(self):
-        self.set_camera_orientation(phi=2 * PI / 5, theta=PI / 3, gamma=PI / 5)
+        self.set_camera_orientation(phi = PI / 3 + PI / 12, theta = PI / 6)
 
         edges = VGroup()
         cube = Cube(side_length = 3, fill_opacity = 0.5, color = TEAL)
         edges.add(cube)
 
+        self.begin_3dillusion_camera_rotation(rate = 10)
         ax = ThreeDAxes(
             x_range=[-6, 6, 1],
             y_range=[-6, 6, 1],
@@ -33,5 +34,6 @@ class Camera_angles(ThreeDScene) :
         self.play(Write(ax), run_time = 2)
         self.wait(1)
         for edge in edges :
-            self.play(Create(edge), run_time = 1)
-        self.wait(3)
+            self.play(Create(edge), run_time = 1.5)
+            self.wait(1)
+        self.wait(2)

@@ -1,5 +1,6 @@
 # This file is used internally by FFMPEG.
-file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/1449566815_4208649792_223132457.mp4'
-file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/1393865303_3438219438_1790790205.mp4'
-file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/1393865303_2469864721_2597095855.mp4'
-file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/1393865303_3687956762_3605641180.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/3489607426_4208649792_729892282.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/3283670670_489138100_934951766.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/3675976094_2648028003_2596641523.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/902491015_489138100_4271976548.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/THPTQG24/1080p60/partial_movie_files/Camera_angles/1693142126_667837741_1326581236.mp4'

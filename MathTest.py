@@ -1,7 +1,7 @@
 from manim import *
 import numpy as np
 
-class test(Scene) :
+class test(Scene):
     def construct(self):
 
         box = Rectangle(stroke_color = GREEN_C, stroke_opacity = 0.7,
@@ -13,7 +13,8 @@ class test(Scene) :
         self.play(box.animate(run_time = 2).shift(2 * UP + 3 * LEFT))
         self.wait(2)
 
-class oxy(Scene) :
+class oxy(Scene):
+    
     def construct(self):
 
         axes = Axes(x_range = [-3, 3, 1], y_range = [-3, 3, 1],
@@ -31,7 +32,7 @@ class oxy(Scene) :
         self.play(Swap(axes, square))
         self.wait(1)
 
-class UnwrappingCircle(Scene) :
+class UnwrappingCircle(Scene):
     def construct(self):
         r = ValueTracker(0.5)
         r_value = always_redraw(lambda : DecimalNumber(r.get_value(), 2))
@@ -71,10 +72,10 @@ class UnwrappingCircle(Scene) :
 
         self.wait(1)
 
-class WigglingSinWave(Scene) :
+class WigglingSinWave(Scene):
     def construct(self):
         # self.add(NumberPlane())
-        self.wait(1)
+        self.wait(2)
 
         ax = Axes(
             x_range = [0, 6, 1],
@@ -119,30 +120,20 @@ class WigglingSinWave(Scene) :
             )
         )
 
-        angle_curve = always_redraw (
-            lambda : Angle(
-                circ_radius,
-                rotating_radius,
-                quadrant = (1, 1),
-                color = WHITE
-            )
-        )
-
         # graph_dot = always_redraw(
         #     lambda : Dot(dashed_line.get_end(), color = RED, radius = 0.08)
         # )
 
         def move_dot(dot) :
-            dot.move_to(dashed_line.get_end())
+            dot.move_to([0, np.sin(alpha.get_value()), 0])
 
-        graph_dot = Dot(color = RED, radius = 0.08).move_to(sin_func.get_start())
+        graph_dot = Dot(ax.get_origin(), color = RED, radius = 0.08)
         graph_dot.add_updater(move_dot)
 
         radian_text = VGroup()
         alpha_str = MathTex(r"\alpha = ")
-        alpha_value = always_redraw(
-            lambda : DecimalNumber(alpha.get_value() % TAU, 2).next_to(alpha_str, RIGHT)
-        )
+
+        alpha_value = always_redraw(lambda : DecimalNumber(alpha.get_value() % TAU, 2).next_to(alpha_str, RIGHT))
 
         radian_text.add(alpha_str, alpha_value)
         radian_text.next_to(circle, DOWN * 1.5)
@@ -152,7 +143,7 @@ class WigglingSinWave(Scene) :
         self.play(Create(circle), Create(circ_cent), run_time = 3, lag_ratio = 0)
         self.wait(0.5)
         self.play(Create(rotating_radius), Create(circ_radius), Create(circ_dot), run_time = 1.5)
-        self.add(angle_curve, fixed_circ_dot)
+        self.add(fixed_circ_dot)
         self.wait(0.5)
         self.play(Create(dashed_line), Create(graph_dot), Write(sin_func), Write(radian_text), run_time = 1.5, rate_func = smooth)
         self.wait(1)
@@ -163,3 +154,13 @@ class test(Scene) :
     def construct(self):
         plane = NumberPlane()
         plane.get_graph()
+
+class hello(Scene):
+    def construct(self):
+        hello_text = Text(f"Helo mọi ng")
+        fuck_text = Text(f"Địt con mẹ vãi lồn")
+        self.wait(1)
+        self.play(Write(hello_text), run_time = 3)
+        self.wait(2)
+        self.play(TransformMatchingShapes(hello_text, fuck_text), run_time = 3)
+        self.wait(1)
