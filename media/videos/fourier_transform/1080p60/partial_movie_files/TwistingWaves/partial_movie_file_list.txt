@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/fourier_transform/1080p60/partial_movie_files/TwistingWaves/3977891868_2541645948_223132457.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/fourier_transform/1080p60/partial_movie_files/TwistingWaves/2852726489_2475379470_3274809266.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/fourier_transform/1080p60/partial_movie_files/TwistingWaves/2852726489_1603941839_3249851360.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/fourier_transform/1080p60/partial_movie_files/TwistingWaves/2852726489_1141282389_320215213.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/fourier_transform/1080p60/partial_movie_files/TwistingWaves/2852726489_138276974_1744795048.mp4'
+file 'file:C:/Users/KIEN/OneDrive/Desktop/Learning-Manim/media/videos/fourier_transform/1080p60/partial_movie_files/TwistingWaves/2852726489_3171669049_279686400.mp4'
